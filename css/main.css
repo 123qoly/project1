@@ -174,7 +174,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row wrap; 
   margin: 0;
 }
 
@@ -193,13 +193,14 @@ header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row wrap; 
 }
 
 header nav ul {
-  width: 100%;
+  width: 60%;
+  padding-left: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 header nav ul li{
@@ -551,7 +552,7 @@ footer .copyright {
   }
 
   header nav {
-    width: 20%;
+    width: 40%;
   }
 
   header nav ul {
